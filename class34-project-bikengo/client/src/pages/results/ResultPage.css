@@ -1,0 +1,19 @@
+.results::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.results::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+.results::-webkit-scrollbar-track {
+  background: lightgray;
+  margin-top: 10px;
+}
+.results {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) lightgray;
+}
+.results {
+  height: 100%;
+}

@@ -1,0 +1,89 @@
+.footer-container {
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.footer-content {
+  display: flex;
+  flex: 2;
+}
+
+.footer-ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  list-style-type: none;
+  flex: 1;
+}
+.footer-li {
+  margin: 5px 0;
+}
+
+.socialMedia-icons {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.fa-brands {
+  margin: 5px;
+  font-size: 40px;
+}
+
+.fa-facebook-square {
+  color: #3b5999;
+}
+.fa-instagram-square {
+  color: #e4405f;
+}
+.fa-twitter-square {
+  color: #55acee;
+}
+.fa-pinterest-square {
+  color: #e60023;
+}
+
+.footer-bottom {
+  background-color: rgb(36, 205, 116);
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer-bottom h6 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    width: 100%;
+    width: 100%;
+  }
+  .footer-ul {
+    width: 100%;
+  }
+  .footer-content {
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-content {
+    margin-left: 100px;
+  }
+  .socialMedia-icons {
+    margin-top: 25px;
+  }
+}

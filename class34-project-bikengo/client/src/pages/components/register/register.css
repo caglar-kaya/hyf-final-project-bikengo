@@ -1,0 +1,41 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register-input {
+  border-radius: 30px;
+  background-color: var(--tertiary);
+  width: 75%;
+  padding: 7px;
+  margin: 15px;
+  outline: none;
+  text-indent: 10px;
+}
+
+.register-btn {
+  display: block;
+  width: 60%;
+  background-color: var(--primary);
+  margin: 15px;
+  position: relative;
+  top: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 500px) {
+  .register-container {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .register-input {
+    width: 60%;
+  }
+}

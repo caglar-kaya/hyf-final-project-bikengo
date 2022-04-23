@@ -1,0 +1,7 @@
+.searchField {
+  @apply bg-background px-4 py-2 text-text rounded-md;
+}
+
+.searchIcon {
+  @apply text-primary text-primary rounded-md;
+}

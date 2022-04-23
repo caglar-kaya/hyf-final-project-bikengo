@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --primary: #24cd74;
+  --secondary: #f6d71e;
+  --tertiary: #d7f1e4;
+  --background: #e9e9ec;
+  --text: #261f42;
+  --text_secondary: #928fa0;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  scroll-behavior: smooth;
+  color: var(--text);
+}

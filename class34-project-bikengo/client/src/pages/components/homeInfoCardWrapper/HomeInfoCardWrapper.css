@@ -1,0 +1,11 @@
+.info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  @apply my-10;
+}
+@media only screen and (max-width: 450px) {
+  .info {
+    display: block;
+  }
+}
